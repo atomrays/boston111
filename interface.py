@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template, jsonify
 
+# yogesh
 # from sklearn.metrics import DistanceMetric
 
 # from sklearn.neighbors import _dist_metrics
@@ -19,7 +20,6 @@ from flask import Flask, request, render_template, jsonify
 
 # from sklearn import *
 # from sklearn.neighbors import DistanceMetric
-
 
 
 import pickle
@@ -103,4 +103,3 @@ def predict1():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=config.PORT_NUMBER)
-
